@@ -1,7 +1,6 @@
 import React from "react";
 
-export default function Section(props) {
-  console.log(props.dictionary);
+export default function Section1(props) {
   if (props.dictionary !== null) {
     return (
       <section className="part">

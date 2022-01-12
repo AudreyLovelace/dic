@@ -35,3 +35,7 @@ header input {
   padding: 20px;
   width: 90%;
 }
+
+em {
+  color: grey;
+}
