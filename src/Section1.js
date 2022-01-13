@@ -3,8 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
 export default function Section1(props) {
   if (props.dictionary !== null) {
-    console.log(props.dictionary.phonetics);
-
     return (
       <section className="part">
         <h1>{props.dictionary.word}</h1>

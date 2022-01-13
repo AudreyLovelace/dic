@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Section1 from "./Section1";
 import Section2 from "./Section2";
+import Section3 from "./Section3";
 import "./App.css";
 
 function App(props) {
@@ -48,6 +49,13 @@ function App(props) {
 
         <Section1 dictionary={dictionary} />
         <Section2 dictionary={dictionary} />
+        <Section3 dictionary={dictionary} />
+        <p className="sign">
+          This project was coded by{" "}
+          <a href="https://www.shecodes.io/">SheCodes</a> and is open-sourced on{" "}
+          <a href="https://github.com/AudreyLovelace/dic">GitHub</a> and hosted
+          on <a href="https://www.netlify.com/">Netlify</a>
+        </p>
       </div>
     );
   }

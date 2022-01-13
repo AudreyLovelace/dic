@@ -6,7 +6,7 @@
 .container {
   min-width: 350px;
   width: 70%;
-  margin: 0 18% 0 12%;
+  margin: 0 18% 60px 12%;
 }
 
 img {
@@ -43,4 +43,17 @@ em {
 li {
   list-style: none;
   display: inline;
+}
+
+footer img {
+  display: inline-block;
+  width: 31%;
+  margin: 1%;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.sign {
+  text-align: center;
+  font-size: 12px;
 }

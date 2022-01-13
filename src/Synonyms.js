@@ -2,7 +2,7 @@ export default function Synonyms(props) {
   if (props.words[0] !== undefined) {
     return (
       <ul>
-        <h4>Similar:</h4>
+        <h3>Similar:</h3>
         {props.words.map((element, index) => {
           return (
             <li key={index}>

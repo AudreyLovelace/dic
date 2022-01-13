@@ -8,7 +8,7 @@ export default function Section1(props) {
         {props.dictionary.meanings.map((element, index) => {
           return (
             <section key={index} className="part">
-              <h4>{element.partOfSpeech}</h4>
+              <h3>{element.partOfSpeech}</h3>
               <br />
               <p>{element.definitions[0].definition}</p>
               <br />
