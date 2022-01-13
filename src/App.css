@@ -39,3 +39,8 @@ header input {
 em {
   color: grey;
 }
+
+li {
+  list-style: none;
+  display: inline;
+}
