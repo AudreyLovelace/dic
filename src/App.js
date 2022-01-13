@@ -36,15 +36,17 @@ function App(props) {
           />
         </a>
         <header className="part">
-          <h2>What word do you want to look up?</h2>
-          <form onSubmit={search}>
-            <input
-              onChange={changeWord}
-              type="search"
-              placeholder="Search for a word"
-            ></input>
-          </form>
-          <small>i.e. paris, wine, yoga, coding</small>
+          <div className="space">
+            <h2>What word do you want to look up?</h2>
+            <form onSubmit={search}>
+              <input
+                onChange={changeWord}
+                type="search"
+                placeholder="Search for a word"
+              ></input>
+            </form>
+            <small>i.e. paris, wine, yoga, coding</small>
+          </div>
         </header>
 
         <Section1 dictionary={dictionary} />

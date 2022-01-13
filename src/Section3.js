@@ -26,15 +26,17 @@ export default function Section3(props) {
   } else if (imgSrc !== null) {
     return (
       <footer className="part">
-        {imgSrc.map((element, index) => {
-          return (
-            <img
-              key={index}
-              alt={props.dictionary.word}
-              src={element.src.landscape}
-            ></img>
-          );
-        })}
+        <div className="space">
+          {imgSrc.map((element, index) => {
+            return (
+              <img
+                key={index}
+                alt={props.dictionary.word}
+                src={element.src.landscape}
+              ></img>
+            );
+          })}
+        </div>
       </footer>
     );
   } else {

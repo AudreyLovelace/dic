@@ -4,9 +4,9 @@
 }
 
 .container {
-  min-width: 350px;
-  width: 70%;
-  margin: 0 18% 60px 12%;
+  min-width: 300px;
+  width: 100%;
+  margin: 0 auto 60px auto;
 }
 
 img {
@@ -20,8 +20,12 @@ img {
   background-color: white;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgb(231, 231, 231);
-  padding: 40px;
+
   margin-bottom: 20px;
+}
+
+.space {
+  padding: 50px;
 }
 
 header input {
