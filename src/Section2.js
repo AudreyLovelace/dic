@@ -3,8 +3,6 @@ import Synonyms from "./Synonyms";
 
 export default function Section1(props) {
   if (props.dictionary !== null) {
-    console.log(props.dictionary.meanings);
-
     return (
       <div>
         {props.dictionary.meanings.map((element, index) => {
